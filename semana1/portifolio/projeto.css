@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(67, 134, 197);
+}
+
+
+.central{
+    width: 1000px;
+    height: 100vh;
+    background-color: blanchedalmond;
+    margin: auto;
+    border-radius: 1%;
+
+    
+}
+
+.detalhe{
+    text-align: center;
+    
+}
