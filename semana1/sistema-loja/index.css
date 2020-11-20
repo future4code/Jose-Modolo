@@ -1,0 +1,41 @@
+.layout1 {
+    text-align: center;
+    color: black;
+    
+}
+
+.layout2{
+    text-align: center;
+    color: black;
+}
+
+.logos{
+    
+
+}
+
+.background{
+    background-image: url(img/background/ramiro-mendes-CjS3QsRuxnE-unsplash.png);
+    height: 100vh;
+
+}
+
+
+
+.botao {
+    padding: 5px 20px;
+    border: 3px solid #ffffff;
+    list-style-type: none;
+    display: inline-block;
+    color: white;
+
+}
+
+
+.botao:hover {
+    background-color: rgb(201, 194, 194);
+    color: black;
+}
+
+
+
