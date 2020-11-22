@@ -1,19 +1,42 @@
-body{
-    background-color: rgb(67, 134, 197);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #070614;
+}
+
+.header{
+  display: flex;
+}
+.header, .footer{
+  height: 20vh;
+  width: 100vw;
+}
+
+.welcometext{
+  color: white;
+  margin: auto;
+  font-size: 32px;
+}
 
 .central{
-    width: 1000px;
-    height: 100vh;
-    background-color: blanchedalmond;
-    margin: auto;
-    border-radius: 1%;
-
-    
+  width: 100vw;
+  height: 60vh;
+  background-color: #ece3e3;
+  display: flex;  
 }
 
-.detalhe{
-    text-align: center;
-    
+.aboutme{
+  
+  width: 50%;
+}
+
+.links{
+ 
+  width: 50%;
 }
