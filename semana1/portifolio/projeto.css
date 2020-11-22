@@ -7,11 +7,18 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #070614;
+  background-color: #271688;
 }
 
 .header{
   display: flex;
+}
+
+.linksacesso{
+  text-decoration: none;
+  color: rgb(243, 235, 235);
+  padding: 5px 20px;
+  border: 2px solid rgb(243, 235, 235);
 }
 .header, .footer{
   height: 20vh;
@@ -28,8 +35,8 @@ body {
   width: 100vw;
   height: 60vh;
   background-color: #ece3e3;
-  display: flex;  
-}
+  display: flex; 
+  }
 
 .aboutme{
   
@@ -40,3 +47,53 @@ body {
  
   width: 50%;
 }
+
+.imagemp{
+  width: 300px;
+}
+
+
+.apresentacao{
+  display: flex;
+}
+
+.linkprojeto{
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  padding: 5px 20px;
+  border: 2px solid rgb(3, 2, 2);
+}
+
+.linksite1{
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+  padding: 5px 20px;
+  border: 4px solid rgb(3, 2, 2);
+}
+
+.imgapresentacao{
+  width: 600px;
+  }
+
+.footer{
+  text-align: center;
+}
+
+.lilogo{
+  width: 150px;
+  /* height: 60px; */
+}
+
+.gitlogo{
+  width: 90px;
+}
+
+.linkprojeto:hover{
+  background-color: #543acc;
+}
+
+.linksacesso:hover{
+  background-color: #c0bebe;
+}
+
+
