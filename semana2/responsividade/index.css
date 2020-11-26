@@ -61,6 +61,7 @@ div {
 @media screen and (min-device-width : 421px) and (max-device-width : 800px) {
     .blue-block{
         width: 49vw;
+        
     }
     
     .yellow-block{
@@ -69,5 +70,24 @@ div {
 
     .green-block{
         width: 49vw;
+        
+        
+    }
+
+    div{
+        flex-grow:1;
+        flex-basis:100%
+    }
+
+    div {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
     }
     }
+
+    
+   
