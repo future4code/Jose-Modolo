@@ -28,11 +28,14 @@ article{
   flex-direction: column; 
 }
 
-
+.descryption{
+ 
+}
 
 .video{
   display: flex;
   padding: 10px;
+  
   
   
 }
