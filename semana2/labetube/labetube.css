@@ -1,0 +1,71 @@
+body{
+  background-color: rgb(204, 204, 207);
+  display: flex;
+  justify-content: center;
+}
+
+
+header{
+  display: flex;
+  background-color: rgb(255, 94, 0);
+  width: 1000px;
+  height: 50px;
+  Justify-content: center;
+  Align-items: center;
+  position: fixed;
+  top: 0px;
+  font-size: 30px;
+  
+  
+  
+}
+
+article{
+  width: 1000px;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column; 
+}
+
+.descryption{
+ 
+}
+
+.video{
+  display: flex;
+  padding: 10px;
+  
+  
+  
+}
+
+.varea{
+  width: 300px;
+  height: 300px;
+  
+  
+}
+
+
+footer{
+  display: flex;
+  background-color: orange;
+  width: 1000px;
+  height: 50px;
+  Justify-content: center;
+  Align-items: center;
+  position: fixed;
+  bottom: 0px;
+
+}
+
+.link{
+  text-decoration:none; 
+  
+}
+
+.logo{
+  width: 100px;
+ 
+}
