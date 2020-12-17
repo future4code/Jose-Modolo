@@ -19,12 +19,14 @@ class Post extends React.Component {
   onClickCurtida = () => {
     if(this.state.liked) {
       this.setState({
+        curtido: !this.state.curtido,
         numeroCurtidas: this.state.numeroCurtidas - 1,
         liked: false
       })
     } 
     if(!this.state.liked) {
       this.setState({
+        curtido: !this.state.curtido,
         numeroCurtidas: this.state.numeroCurtidas + 1,
         liked: true
       })
