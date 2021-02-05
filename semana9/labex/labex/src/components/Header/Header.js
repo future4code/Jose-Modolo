@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import SpaceImg from '../img/maxresdefault.jpg'
 import { useHistory } from 'react-router-dom'
+import Astronauta from '../img/Astronauta.jpg'
 
 
 const Menu = styled.div`
@@ -15,11 +16,18 @@ background-image: url(${SpaceImg});
 `
 
 const Bttn = styled.button`
-background-color: gray;
-border-radius: 2px;
+background-color: red;
+border-radius: 10px;
 display: flex;
 height: 50px;
 align-items: center;
+border: solid black;
+color: white;
+&:hover{
+  background-color: blue;
+  cursor: pointer;
+
+}
 `
 
 const LabexLogo = styled.h1`
@@ -33,6 +41,7 @@ export default function Header() {
   return (
     <div>
       <Menu>
+        
         <LabexLogo>LABEX</LabexLogo>
         <Bttn onClick = {() => history.push('/')}>HOME</Bttn>
         <Bttn onClick = {() => history.push("/INSCREVA-SE")}>INSCREVA-SE PARA VIAGEM</Bttn>

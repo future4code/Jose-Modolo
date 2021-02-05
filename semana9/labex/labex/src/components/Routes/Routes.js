@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-
 import Home from '../Home/Home'
 import Login from '../Login/Login'
 import Inscrevase from '../Inscrevase/Inscrevase'
