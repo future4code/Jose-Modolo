@@ -1,6 +1,8 @@
 import React, {useState, setForm, form, onChangeInput} from 'react'
 import styled from 'styled-components'
 import Header from '../Header/Header'
+import MenuChoice from '../Menuchoice/Menuchoice'
+
 
 const DescricaoViagem = styled.div`
 border: solid black 2px;
@@ -58,14 +60,14 @@ margin-top: 90px;
 
  const ApplicationPage = () => {
    const [form, setForm] = useState ({
-     name:'',
-     senha:'',
+     email:'',
+     password:'',
    })
  }
 
  const onChange = (event) => {
    const newValue = event.target.value
-   const fieldName = event.target.name
+   const fieldName = event.target.email
 
    setForm({...form, [fieldName]: newValue})
 
@@ -73,6 +75,24 @@ margin-top: 90px;
 
 
 export default function Inscrevase() {
+  const trips = [
+    {
+        "id": "5Fjmtdclph7Lt3LCjGZP",
+        "description": "Uma viagem bem legal, na melhor época de marte",
+        "planet": "Marte",
+        "name": "Festança Marciana",
+        "durationInDays": 228,
+        "date": "21/12/21"
+    },
+    {
+        "id": "5J6izTTfwNHikDEt3q0V",
+        "planet": "Jupiter",
+        "name": "Multi luau em Jupiter",
+        "durationInDays": 540,
+        "date": "21/12/20",
+        "description": "Noite mágica, com vista para as 69 luas de Jupiter"
+    }, ]
+
   return (
     <div>
       <Header/>
@@ -82,15 +102,10 @@ export default function Inscrevase() {
           <Formulario>
             <Titulo>CADASTRO</Titulo>
             <p>Nome do Usuario</p>
-            <input
-            onChange={onChangeInput}
-            value={form['name']}
-            name={'name'}/>            
+            <input/>            
             <p>Senha</p>
-            <input
-            onChange={onChangeInput}
-            value={form['senha']}
-            name={'senha'}/>           
+            <input/>
+            <MenuChoice></MenuChoice>          
             <Bttn>CADASTRAR</Bttn>           
           </Formulario>
           </AreaCadastro>       
