@@ -12,7 +12,8 @@ grid-template-columns: 1fr 1fr;
 
 const ImgDiv = styled.div`
 display: flex;
-align-items: center;
+margin: auto;
+flex-direction: column-reverse;
 `
 
 
@@ -30,7 +31,13 @@ export default function Home() {
           </p>
         </div>
         <ImgDiv>
-          <img src = "https://picsum.photos/600/400"></img>
+          <form>
+            <p>EMAIL</p>
+            <input  placeholder= "exemplo@labex.com"/> 
+            <p>SENHA</p>
+            <input placeholder= "123456"/><br/><br/>
+            <button>ENTRAR</button>            
+          </form>
         </ImgDiv>
       </CentralArea>
     </div>

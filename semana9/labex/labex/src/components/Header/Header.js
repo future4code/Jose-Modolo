@@ -6,7 +6,7 @@ import Astronauta from '../img/Astronauta.jpg'
 
 
 const Menu = styled.div`
-width: ;
+
 height: 70px;
 border: solid black 2px;
 display: flex;
@@ -46,7 +46,7 @@ export default function Header() {
         <Bttn onClick = {() => history.push('/')}>HOME</Bttn>
         <Bttn onClick = {() => history.push("/INSCREVA-SE")}>INSCREVA-SE PARA VIAGEM</Bttn>
         <Bttn onClick = {() => history.push("ROTAS")}>ROTAS ESPACIAIS</Bttn>
-        <Bttn onClick = {()=> history.push("/LOGIN")}>LOGIN</Bttn>
+        {/* <Bttn onClick = {()=> history.push("/LOGIN")}>LOGIN</Bttn> */}
       </Menu>
     </div>
   )
